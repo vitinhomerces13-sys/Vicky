@@ -1,1 +1,13 @@
+import os
 
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+REPLICATE_API_TOKEN = os.getenv("REPLICATE_API_TOKEN")
+
+ADMIN_IDS = [123456789]
+
+IMAGE_W, IMAGE_H = 1280, 720
+FONT_PATH = "assets/fonts/Anton-Regular.ttf"
+MIN_CTR_SCORE = 45
+
+USE_OPENAI = True
