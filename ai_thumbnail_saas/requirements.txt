@@ -1,0 +1,7 @@
+aiogram==3.4.1
+replicate
+openai
+pillow
+numpy
+requests
+python-dotenv
